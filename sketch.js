@@ -52,10 +52,6 @@ function draw() {
 	thread5.display();
 }
 
-//function keyPressed(UP_ARROW){
-	//bob4.velocityX = -100;	
-//}
-
 function mouseDragged(){
 	Matter.Body.setPosition(bob4.body, {x: mouseX, y: mouseY});
 }
